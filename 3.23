@@ -1,0 +1,16 @@
+word = input()
+password = ''
+''' Type your code here. '''
+for i in word:
+    if i == 'i':
+        i = 1
+    elif i == 'a':
+        i = '@'
+    elif i == 'm':
+        i = 'M'
+    elif i == 'B':
+        i = '8'
+    elif i == 's':
+        i = '$'
+    print(i, end='')
+print('!')
